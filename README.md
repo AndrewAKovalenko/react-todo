@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# Todo list, implemented with React
+
+![img_1.png](img_1.png)
+
+Visual copy of https://todomvc.com/examples/react/#/, created for learning puproses
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
