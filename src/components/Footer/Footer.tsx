@@ -5,12 +5,12 @@ export const Footer = () => {
   const reactLink = 'https://reactjs.org/';
 
   return (
-    <>
+    <footer>
       <p className={styles.info}>Double-click to edit an item</p>
       <p className={styles.info}>
         Created by <a href={githubAccountLink} className={styles.link}>Andrii Kovalenko</a>&nbsp;
         using <a href={reactLink} className={styles.link}>React</a>
       </p>
-    </>
+    </footer>
   );
 }

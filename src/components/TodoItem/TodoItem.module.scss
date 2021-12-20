@@ -1,0 +1,47 @@
+.item {
+  display: flex;
+  align-items: center;
+  height: 58px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ededed;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.itemCompleted {
+  color: #d9d9d9;
+  text-decoration: line-through;
+}
+
+.checkbox {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.text {
+  font-size: 24px;
+  padding: 12px 17px;
+  font-weight: 200;
+  flex: 1;
+  text-align: left;
+  user-select: none;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  min-width: 0;
+  white-space: nowrap;
+}
+
+.delete {
+  border: none;
+  color: #cc9a9a;
+  background-color: transparent;
+  font-size: 20px;
+  margin-right: 15px;
+
+  &:hover {
+    color: palevioletred;
+    cursor: pointer;
+  }
+}
